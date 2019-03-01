@@ -39,5 +39,11 @@ git reset --head 版本号
 git remote add origin 远程地址 (远程链接)
 git push -u origin master (上传项目)
 
+删除关联远程链接
+git remote remove origin
+
 克隆
 git clone 远程地址
+
+生成密钥
+ssh-keygen -t rsa -C "1148151918@qq.com"
