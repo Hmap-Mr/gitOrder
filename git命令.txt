@@ -1,0 +1,43 @@
+第一次使用git需要配置邮箱和用户名
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+初始化仓库
+git init
+
+添加到暂存区
+git add .
+
+查看暂存区
+git status
+
+查看文件变化(工作区与暂存区的区别)
+git diff
+
+撤销当前代码修改(工作区与暂存区的区别 只是改了代码而没add到暂存区)
+git checkout -- .
+
+上传到本地仓库
+git commit -m "项目版本"
+
+查看本地仓库
+git log
+
+回滚上一个版本
+git reset --head HEAD^
+
+查看所有版本号
+git reflog
+
+查看当前版本号
+git show
+
+回滚到指定版本
+git reset --head 版本号
+
+本地仓库同步上传到服务器
+git remote add origin 远程地址 (远程链接)
+git push -u origin master (上传项目)
+
+克隆
+git clone 远程地址
